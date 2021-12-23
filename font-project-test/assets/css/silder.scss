@@ -1,0 +1,109 @@
+#slider {
+  height: 477px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .images-list {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    img {
+      display: none;
+      height: 100%;
+      width: 100%;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  .slider-data {
+    position: relative;
+    max-width: 430px;
+
+    .title {
+    }
+  }
+  .silder-nav {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.flower-experts {
+  .container {
+    .flower-experts-header {
+      padding-top: 138px;
+      padding-bottom: 60px;
+      box-sizing: border-box;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: center;
+
+      h2 {
+        display: block;
+        margin: 0 0 19px;
+        font-size: 38px;
+        line-height: 1.447em;
+      }
+      p {
+        display: block;
+        margin: 14px 0 0;
+        font-size: 17px;
+        line-height: 29px;
+      }
+    }
+    .flower-experts-list {
+      padding-top: 60px;
+      .row {
+        .col-lg-3 {
+          .flower-experts-list__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: brown;
+
+            h6 {
+              color: #1b1b1b;
+              font-family: Montserrat;
+              font-size: 12px;
+              line-height: 2em;
+              font-weight: 500;
+              letter-spacing: 0.1em;
+              text-transform: uppercas;
+            }
+            p {
+              display: block;
+              font-size: 12px;
+              color: #afafaf;
+              margin: 2px 0 4px;
+            }
+          }
+        }
+      
+    }
+  }
+}
+.blog-details {
+  .container {
+    .row {
+      .col-lg-4 {
+        img {
+          width: 353px;
+          height: 226px;
+        }
+      }
+    }
+  }
+}
+}

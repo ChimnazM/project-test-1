@@ -1,0 +1,20 @@
+.blog-details{
+    .container{
+        .blog-details-list{
+            .row{
+                .col-lg-12{
+                    .blog-details-head{
+                        width: 400px;
+                        text-align: center;
+                        margin-left: 300px;
+                        padding-bottom: 68px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+.parallax{
+   background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+   height: 500px;
+}

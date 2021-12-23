@@ -1,0 +1,191 @@
+@import "./silder.scss";
+@import "./blog.scss";
+
+
+
+nav{
+    .container{
+       .col-lg-4{
+           img{
+               padding-top: 50px;
+           }
+       }
+        .col-lg-6{
+            ul{
+                
+                li{
+                    padding-top: 50px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 12px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .col-lg-2{
+            i{
+                padding-top: 50px;
+                padding-left: 10px;
+            }
+        }
+    }
+    &.fixed{
+        position: fixed;
+    }
+}
+.container{
+    .row{
+        .col-lg-9{
+            ul{
+                :first-child{
+                    a{
+                        color: red;
+                    }
+                }
+                li{
+                    list-style: none;
+                    padding-left: 30px;
+                   
+                        
+                    }
+                    a{
+                        
+                        text-decoration: none;
+                        font-size: 12px;
+                        letter-spacing: .1em;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        color: black;
+                    }
+                }
+            }
+        }
+        .col-lg-3{
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                letter-spacing: .1em;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: black;
+            }
+        }
+        .tablinksall{
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .col-lg-3{
+                a{
+                    
+                    h3{
+                        font-family: inherit;
+                        font-size: 16px;
+                        font-weight: inherit;
+                        font-style: inherit;
+                        line-height: inherit;
+                        color: rgb(44, 43, 43);
+                        text-align: center;
+                        margin-top: 10px;
+                        margin-bottom: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: inherit;
+                        color: #afafaf;
+                        text-align: center;
+                        
+                    }
+                    img{
+                        display: block;
+                        width: 250px
+                        
+                    }
+                }
+              
+        }
+    }
+    
+
+
+
+
+
+}
+.play{
+    
+    .col-lg-6{
+        .playmusic{
+            position: relative;
+           
+            .playbutton{
+                position: absolute;
+                bottom: 50px;
+                left: 200px;
+                display: block;
+                text-align: center;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                transform: translateY(-50%);
+                transition: transform ease-in-out 0.1s;
+                button{
+                    width: 103px;
+                    height: 103px;
+                    
+                    background: #fff;
+                    border-radius: 50%;
+                }
+            }
+        }
+      .content{
+         h2{
+               display: block;
+               margin-bottom: 0px;
+               font-size: 38px;
+               line-height: 1.447em;
+              padding-left: 30px;
+              color: #2b2b2b;
+               font-family: playfair display,serif;
+              font-weight: 400;
+             span{
+                 color: red;
+               }
+           }
+           p{
+               padding-left: 30px;
+           }
+           .heart{
+               padding-left: 30px;
+               padding-bottom: 15px;
+               span{
+                   padding-left: 15px;
+               }
+           }
+       }
+    }
+}
+
+footer{
+    .footer-head{
+        a{
+            text-decoration: none;
+            ul{
+                li{
+                    list-style: none;
+                }
+            }
+        }
+    }
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #fefaf3;
+    box-sizing: border-box;
+    .footer-bottom{
+       display: flex;
+       justify-content: space-between;
+    }
+}

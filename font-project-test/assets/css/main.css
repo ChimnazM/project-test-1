@@ -1,0 +1,292 @@
+#slider {
+  height: 477px;
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#slider .images-list {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#slider .images-list img {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+#slider .images-list img.active {
+  display: block;
+}
+
+#slider .slider-data {
+  position: relative;
+  max-width: 430px;
+}
+
+#slider .silder-nav {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flower-experts .container .flower-experts-header {
+  padding-top: 138px;
+  padding-bottom: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.flower-experts .container .flower-experts-header h2 {
+  display: block;
+  margin: 0 0 19px;
+  font-size: 38px;
+  line-height: 1.447em;
+}
+
+.flower-experts .container .flower-experts-header p {
+  display: block;
+  margin: 14px 0 0;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.flower-experts .container .flower-experts-list {
+  padding-top: 60px;
+}
+
+.flower-experts .container .flower-experts-list .row .col-lg-3 .flower-experts-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: brown;
+}
+
+.flower-experts .container .flower-experts-list .row .col-lg-3 .flower-experts-list__item h6 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercas;
+}
+
+.flower-experts .container .flower-experts-list .row .col-lg-3 .flower-experts-list__item p {
+  display: block;
+  font-size: 12px;
+  color: #afafaf;
+  margin: 2px 0 4px;
+}
+
+.flower-experts .blog-details .container .row .col-lg-4 img {
+  width: 353px;
+  height: 226px;
+}
+
+.blog-details .container .blog-details-list .row .col-lg-12 .blog-details-head {
+  width: 400px;
+  text-align: center;
+  margin-left: 300px;
+  padding-bottom: 68px !important;
+}
+
+.parallax {
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+}
+
+nav .container .col-lg-4 img {
+  padding-top: 50px;
+}
+
+nav .container .col-lg-6 ul li {
+  padding-top: 50px;
+}
+
+nav .container .col-lg-6 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+nav .container .col-lg-2 i {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+nav.fixed {
+  position: fixed;
+}
+
+.container .row .col-lg-9 ul :first-child a {
+  color: red;
+}
+
+.container .row .col-lg-9 ul li {
+  list-style: none;
+  padding-left: 30px;
+}
+
+.container .row .col-lg-9 ul a {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container .col-lg-3 a {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container .tablinksall {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .tablinksall .col-lg-3 a h3 {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: #2c2b2b;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.container .tablinksall .col-lg-3 a p {
+  font-size: 14px;
+  line-height: inherit;
+  color: #afafaf;
+  text-align: center;
+}
+
+.container .tablinksall .col-lg-3 a img {
+  display: block;
+  width: 250px;
+}
+
+.play .col-lg-6 .playmusic {
+  position: relative;
+}
+
+.play .col-lg-6 .playmusic .playbutton {
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+  display: block;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: -webkit-transform ease-in-out 0.1s;
+  transition: -webkit-transform ease-in-out 0.1s;
+  transition: transform ease-in-out 0.1s;
+  transition: transform ease-in-out 0.1s, -webkit-transform ease-in-out 0.1s;
+}
+
+.play .col-lg-6 .playmusic .playbutton button {
+  width: 103px;
+  height: 103px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.play .col-lg-6 .content h2 {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 38px;
+  line-height: 1.447em;
+  padding-left: 30px;
+  color: #2b2b2b;
+  font-family: playfair display,serif;
+  font-weight: 400;
+}
+
+.play .col-lg-6 .content h2 span {
+  color: red;
+}
+
+.play .col-lg-6 .content p {
+  padding-left: 30px;
+}
+
+.play .col-lg-6 .content .heart {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.play .col-lg-6 .content .heart span {
+  padding-left: 15px;
+}
+
+footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #fefaf3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer .footer-head a {
+  text-decoration: none;
+}
+
+footer .footer-head a ul li {
+  list-style: none;
+}
+
+footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */
